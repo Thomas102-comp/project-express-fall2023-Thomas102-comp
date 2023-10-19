@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <!-- NavBar -->
+    <section class="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="event.html">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Become volunteer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="breadcrumb_and_delete">
+        <div class="edit_event_top">
+            <div class="breadcrumb">
+                <!-- breadcrumb-->
+                <div aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="event.html">Event</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">New event</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form action="https://www.httpbin.org/post" method="POST">
+        <!-- edit event form -->
+        <section class="edit_event_form">
+            <!-- d1 -->
+            <div class="d1">
+                <div>
+                    <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Event Title</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Event title"></textarea>
+                    </div>
+                    <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Organizer</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Organizer"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Description"></textarea>
+                </div>
+            </div>
+
+            <!-- d2 -->
+            <div class="d2">
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Datetime</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Datetime"></textarea>
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Qutoa</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Qutoa"></textarea>
+                </div>
+            </div>
+
+
+            <!-- d3 -->
+            <div class="d3">
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Location</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Location"></textarea>
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Image</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Image"></textarea>
+                </div>
+            </div>
+
+            <!-- Highlight button and Save button -->
+            <div class="d4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="gridCheck1" name="Highlight">
+                    <label class="form-check-label" for="gridCheck1">
+                        Highlight
+                    </label>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+
+
+            </div>
+
+        </section>
+    </form>
+
+</body>
+
+</html>

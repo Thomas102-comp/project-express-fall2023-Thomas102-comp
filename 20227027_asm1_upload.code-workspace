@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../20227027_asm1_upload"
+		},
+		{
+			"path": "routes"
+		},
+		{
+			"path": "utils"
+		},
+		{
+			"path": "views"
+		},
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "bin"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "project-express-fall2023-Thomas102-comp"
+		},
+		{
+			"path": "public"
+		}
+	],
+	"settings": {}
+}
